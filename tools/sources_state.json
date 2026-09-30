@@ -1,0 +1,9 @@
+{
+ "checked": "2026-09-30",
+ "statbel_refnis": {"page": "https://statbel.fgov.be/en/open-data/code-refnis-0", "file": "TU_COM_REFNIS-20250101.xlsx", "last_modified": "2024-11-28T13:58:54Z", "bytes": 146190},
+ "bpost_nl": {"page": "https://www.bpost.be/nl/postcodevalidatie-tool", "file": "zipcodes_num_nl_2025.xls", "last_modified": "2026-03-16T12:57:18Z", "bytes": 328192},
+ "bpost_fr": {"file": "zipcodes_num_fr_2025.xls", "last_modified": "2026-03-16T12:57:18Z", "bytes": 328192},
+ "best_openaddress": {"page": "https://opendata.bosa.be/index.nl.html", "files": ["openaddress-bevlg.zip","openaddress-bebru.zip","openaddress-bewal.zip","postalstreets-latest.zip","postalstreets-empty-latest.zip"], "last_modified": "2026-09-30T10:42:52Z"},
+ "cbs_gemeenten": {"page": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026", "file": "gemeenten-alfabetisch-2026.xlsx", "last_modified": "2026-01-06T16:05:40Z"},
+ "cbs_pc6hnr": {"page": "https://www.cbs.nl/nl-nl/maatwerk/2026/38/buurt-wijk-en-gemeente-2026-voor-postcode-huisnummer", "file": "pc6hnr20260801_gwb.zip", "last_modified": "2026-09-18T12:03:01Z"}
+}

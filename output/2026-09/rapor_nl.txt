@@ -1,0 +1,38 @@
+HOLLANDA ÖNERİ DOSYASI RAPORU (areas_nl_proposal.json) – ÖNERİDİR, ana listeye girmez
+Kaynaklar:
+ - CBS Gemeentelijke indeling op 1 januari 2026: https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026
+   dosya: https://www.cbs.nl/-/media/cbs/onze-diensten/methoden/classificaties/overig/gemeenten-alfabetisch-2026.xlsx (Last-Modified 06.01.2026)
+ - CBS Buurt, wijk en gemeente 2026 voor postcode huisnummer (yayın 18.09.2026): https://www.cbs.nl/nl-nl/maatwerk/2026/38/buurt-wijk-en-gemeente-2026-voor-postcode-huisnummer
+   dosya: https://download.cbs.nl/postcode/pc6hnr20260801_gwb.zip (Last-Modified 18.09.2026; BAG peildatum 01.08.2026)
+Satır sayıları: country 1, province 12, municipality 342 (CBS: 342), postal_code (PC4) 4073
+PC4 → gemeente: her PC4 için adres (postcode+huisnummer) sayısı en yüksek gemeente parent yapıldı. Birden fazla gemeenteye yayılan PC4: 19.
+Birden fazla gemeenteye yayılan PC4'ler (adres sayısı):
+ - 1261: GM0376 (4793), GM0417 (1) → NL-MUN-GM0376
+ - 1724: GM1980 (1584), GM0441 (2) → NL-MUN-GM1980
+ - 4062: GM0281 (52), GM1960 (6) → NL-MUN-GM0281
+ - 4197: GM1960 (384), GM0214 (36) → NL-MUN-GM1960
+ - 5091: GM0823 (2501), GM0798 (1) → NL-MUN-GM0823
+ - 5383: GM0796 (131), GM1721 (19) → NL-MUN-GM0796
+ - 6574: GM1945 (153), GM0268 (2) → NL-MUN-GM1945
+ - 6924: GM0226 (432), GM1705 (2) → NL-MUN-GM0226
+ - 7351: GM0200 (596), GM0228 (4) → NL-MUN-GM0200
+ - 7554: GM0164 (876), GM1735 (1) → NL-MUN-GM0164
+ - 7693: GM0160 (624), GM1700 (6) → NL-MUN-GM0160
+ - 7694: GM0160 (595), GM1700 (19) → NL-MUN-GM0160
+ - 7933: GM0118 (632), GM1701 (3) → NL-MUN-GM0118
+ - 7963: GM1690 (1659), GM1701 (17) → NL-MUN-GM1690
+ - 7964: GM1690 (139), GM1701 (2) → NL-MUN-GM1690
+ - 9207: GM0090 (2723), GM0086 (31) → NL-MUN-GM0090
+ - 9354: GM1969 (1092), GM1699 (1) → NL-MUN-GM1969
+ - 9417: GM1731 (95), GM1701 (3) → NL-MUN-GM1731
+ - 9423: GM1731 (585), GM1701 (4) → NL-MUN-GM1731
+Eşitlikler:
+ - yok
+PC4'ü olmayan gemeente: yok
+CBS listesinde olmayan gemeentecode (pc6hnr): yok
+Belirsizlikler / notlar:
+ - PC4 için resmi yer adı (woonplaats) bu kaynaklarda yok; places boş liste olarak bırakıldı. İstenirse BAG woonplaatsen (PDOK) ile doldurulabilir.
+ - Frysk (fy) isimler: CBS tek resmi ad veriyor. Yalnızca il "Fryslân" için fy eklendi; Frizce resmi adlı gemeenten (örn. Súdwest-Fryslân, Tytsjerksteradiel) CBS adıyla nl etiketinde; ayrı fy adları (örn. Leeuwarden/Ljouwert) resmi kaynaktan alınamadığı için eklenmedi.
+ - İl ISO kodları (NL-GR … NL-LI) CBS il adından eşlendi; ISO OBP'de doğrulanmadı.
+ - Belçika'daki gibi özel/kurumsal kod ayıklaması yapılmadı: pc6hnr yalnızca BAG'daki adreslere verilmiş kodları içerir (postbus kodları zaten yok).
+! CBS gemeentelijst ile pc6hnr gem_2026.csv farklı: ['0998'] (Buitenland) – pc6hnr'de bu koda düşen adres yok, göz ardı edildi
